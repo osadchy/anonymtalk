@@ -1,0 +1,42 @@
+
+/* ------------------------------------------------------FEED STYLE------------------------------------------------------------ */
+
+body {font: 12px 'Segoe UI', 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;}
+
+h1 {position: relative; text-align: center; font-size: 16px; color: #d33682;}
+
+h2 {position: relative; text-align: center; bottom: -9px ; font-size: 14px; font-weight: bold; color: #d33682; }
+
+h5 {position: relative; text-align: center; top: -12px ; color: #d3d7dc }
+
+/* ---------HEADER--------- */
+
+#logo {
+
+background-image: url('img/logo_home.png');
+text-align: center;
+margin-top: 0px;
+margin-bottom: 0px;
+padding: 20px;
+
+}
+
+/* unvisited link */
+a:link {
+    color: #d3d7dc;
+}
+
+/* visited link */
+a:visited {
+    color: #d3d7dc;
+}
+
+/* mouse over link */
+a:hover {
+    color: #d33682;
+}
+
+/* selected link */
+a:active {
+    color: #d3d7dc;
+}

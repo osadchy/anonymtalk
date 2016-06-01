@@ -1,0 +1,172 @@
+
+/* ------------------------------------------------------FEED STYLE------------------------------------------------------------ */
+
+body{ font: 12px 'Segoe UI', 'Proxima Nova', 'Helvetica Neue', 
+Helvetica, Arial, sans-serif; margin: 0; padding: 0;}
+
+h1 {position: relative; text-align: center; right: 190px; top: -43px; font-size: 19px; color: #f9f9f9;}
+
+h2 {position: relative; text-align: center; right: 216px; top: 0px; font-size: 14px; font-weight: bold; color: #ccc;}
+
+h5 {position: relative; text-align: center; color: #d3d7dc }
+
+/* ---------HEADER--------- */
+
+#logo {
+
+position: absolute;
+left: 720px;
+top: -2px;
+
+}
+
+#wrapper {
+
+width: 100%;
+margin: 0 auto;
+
+}
+
+#header {
+
+width: 100%;
+height: 35px;
+background: #888;
+
+}
+
+#header-left {
+float: left;
+width: 28%;
+height: 35px;
+background: #d33682;
+
+}
+
+#header-center {
+
+float: right;
+width: 44%;
+height: 35px;
+background: #d33682;
+
+}
+
+#header-right {
+
+float: right;
+width: 28%;
+height: 35px;
+background: #d33682;
+
+}
+
+#logo {
+
+background-image: url('logo.png');
+position: relative;
+top: 32.5px;
+left: 455px;
+
+}
+
+/* ---------TITLE--------- */
+
+#header-title {
+
+width: 100%;
+height: 35px;
+background: #fff;
+
+}
+
+#header-left-title {
+float: left;
+width: 28%;
+height: 35px;
+background: #fff;
+
+}
+
+#header-center-title {
+
+float: right;
+width: 44%;
+height: 35px;
+background: #fff;
+
+}
+
+#header-right-title {
+
+float: right;
+width: 28%;
+height: 35px;
+background: #fff;
+
+}
+
+/* unvisited link */
+a:link {
+    color: #d3d7dc;
+}
+
+/* visited link */
+a:visited {
+    color: #d3d7dc;
+}
+
+/* mouse over link */
+a:hover {
+    color: #d3d7dc;
+}
+
+/* selected link */
+a:active {
+    color: #d3d7dc;
+}
+
+
+/* ---------New Talk Btn--------- */
+
+#header-talk-cnt {
+
+width: 100%;
+height: 35px;
+background: #fff;
+
+}
+
+#header-left-talk-cnt {
+float: left;
+width: 28%;
+height: 35px;
+background: #fff;
+
+}
+
+#header-center-talk-cnt{
+
+float: right;
+width: 44%;
+height: 35px;
+background: #fff;
+
+}
+
+#header-right-talk-cnt {
+
+float: right;
+width: 28%;
+height: 35px;
+background: #fff;
+
+}
+
+
+/* Css Shadow Effect for the prod-box and prod-box-list div */
+ .shadow{
+    -webkit-box-shadow: 0px 0px 18px rgba(50, 50, 50, 0.31);
+    -moz-box-shadow:    0px 0px 10px rgba(50, 50, 50, 0.31);
+    box-shadow:         0px 0px 5px rgba(50, 50, 50, 0.31);
+}	
